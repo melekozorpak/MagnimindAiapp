@@ -1,0 +1,17 @@
+boto3
+awscli
+pypdf
+langchain
+langchain_community
+langchain_aws  # New package required for BedrockEmbeddings
+streamlit
+faiss-cpu
+camelot-py[cv]
+opencv-python
+pdfplumber==0.5.28
+pytesseract
+pdf2image
+anthropic
+pillow  # Required for image processing
+poppler-utils  # Required for pdf2image (System package, should be installed in Dockerfile)
+tiktoken  # Ensures compatibility with token-based processing in LangChain
